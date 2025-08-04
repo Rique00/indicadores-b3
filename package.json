@@ -1,0 +1,12 @@
+{
+  "name": "indicadores-b3",
+  "version": "1.0.0",
+  "description": "API pública para extrair indicadores do Investidor10 e FundsExplorer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
