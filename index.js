@@ -2,8 +2,9 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const { getIndicadoresAcao } = require('./scrapers/acoes'); // Certifique-se de que o caminho do arquivo está correto
-const { getIndicadoresFII } = require('./scrapers/fiis');   // Certifique-se de que o caminho do arquivo está correto
+// Importação CORRIGIDA para os novos nomes de arquivos
+const { getIndicadoresAcao } = require('./scrapers/acao'); 
+const { getIndicadoresFII } = require('./scrapers/fii');   
 
 app.use(cors());
 
